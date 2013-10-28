@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+#users,
+#room {
+  border: 1px solid #333;
+  border-radius: 3px;
+  height: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+}
+#message-input,
+#set-user {
+  font-size: 1.5em;
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.messageId {
+  color: #808080;
+}
+.message {
+  color: #000;
+}
